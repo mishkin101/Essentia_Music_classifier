@@ -1,0 +1,24 @@
+[build-system]
+requires = [
+    "wheel >= 0.29.0",
+    "setuptools >= 48",
+    "numpy>=2.0.0rc1",
+    "six",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "essentia"
+license = "AGPL-3.0-only"
+dynamic = ["version", "description", "readme", "authors", "keywords", "classifiers", "urls"]
+dependencies = [
+    "ipython>=8.37.0",
+    "matplotlib>=3.10.6",
+    "numpy>=1.25",
+    "pyyaml",
+    "six",
+    "tensorflow>=2.20.0",
+]
+
+[tool.uv]
+    package = false
