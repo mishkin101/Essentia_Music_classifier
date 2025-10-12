@@ -3,7 +3,7 @@ set -e
 
 # update Essentia version number in the Doxyfile
 cp doc/Doxyfile doc/Doxyfile.tmp
-cat doc/Doxyfile.tmp | sed "s/^PROJECT_NUMBER .*$/PROJECT_NUMBER  = $(cat VERSION)/" > doc/Doxyfile
+cat doc/Doxyfile.tmp | sed "s/^PROJECT_NUMBER .*$/PROJECT_NUMBER  = $(cat PROJECT_VERSION.txt)/" > doc/Doxyfile
 rm doc/Doxyfile.tmp
 
 # update Essentia version number in the Sphinx conf file

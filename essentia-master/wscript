@@ -20,10 +20,9 @@ def get_git_version():
 
 
 APPNAME = 'essentia'
-VERSION = open('VERSION', 'r').read().strip('\n')
+VERSION = open('PROJECT_VERSION.txt', 'r').read().strip('\n')
 GIT_SHA = get_git_version()
 
-top = '.'
 out = 'build'
 
 # make default --prefix=$VIRTUAL_ENV inside virtualenv

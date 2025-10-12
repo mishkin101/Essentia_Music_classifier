@@ -2,7 +2,7 @@ include ACKNOWLEDGEMENTS AUTHORS
 include Changelog
 include COPYING.txt Essentia*Licensing.txt
 include FAQ.md README.md
-include VERSION
+include PROJECT_VERSION.txt
 include waf
 include wscript src/wscript src/python/wscript
 recursive-include utils/ *.py
