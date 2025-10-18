@@ -13,10 +13,14 @@ license = "AGPL-3.0-only"
 dynamic = ["version", "description", "readme", "authors", "keywords", "classifiers", "urls"]
 dependencies = [
     "ipython>=8.37.0",
+    "librosa>=0.11.0",
     "matplotlib>=3.10.6",
     "numpy>=1.25",
     "pyyaml",
     "six",
+    "sphinx>=8.2.3",
+    "sphinx-toolbox>=4.0.0",
+    "sphinxcontrib-doxylink>=1.13.0",
     "tensorflow>=2.20.0",
 ]
 
